@@ -1,0 +1,32 @@
+.title {
+    text-align: center;
+    font-family: signPainter;
+    font-size: 10em;
+    -webkit-background-clip: text;
+    text-shadow: 5px 5px 2px black;
+    background:#DB7093
+}
+#recipeList {
+    background-color: #DB7093;
+}
+p {
+    background-color: #DB7093;
+    color: white;
+}
+a {
+    background-color: #DB7093;
+    color: white;
+    font-weight: 200;
+    font-size: 16px;
+}
+h1,
+h2 {
+    background-color: #FFC0CB;
+    color: white;
+}
+.container.text-center {
+    padding: 0;
+}
+ul li {
+    list-style: circle;
+}
