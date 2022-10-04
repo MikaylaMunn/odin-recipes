@@ -1,3 +1,4 @@
+/* Class Selector */
 .title {
     text-align: center;
     font-family: signPainter;
@@ -6,27 +7,33 @@
     text-shadow: 5px 5px 2px black;
     background:#DB7093
 }
+/* ID Selector */
 #recipeList {
     background-color: #DB7093;
 }
+/* Type Selector */
 p {
     background-color: #DB7093;
     color: white;
 }
-a {
-    background-color: #DB7093;
+div > a {
+    background-color: #DB7093
+    ;
     color: white;
     font-weight: 200;
     font-size: 16px;
 }
+/* Chained Selector */
 h1,
 h2 {
     background-color: #FFC0CB;
     color: white;
 }
+/* At least two classes with shared rules, grouped together */
 .container.text-center {
     padding: 0;
 }
+/* Descendant combinator */
 ul li {
     list-style: circle;
 }
