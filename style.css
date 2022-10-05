@@ -16,6 +16,10 @@ p {
     background-color: #DB7093;
     color: white;
 }
+img {
+    height: 350 px;
+    width: 350px;
+}
 div > a {
     background-color: #DB7093
     ;
