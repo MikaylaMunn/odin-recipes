@@ -10,6 +10,7 @@
 /* ID Selector */
 #recipeList {
     background-color: #DB7093;
+    color: white;
 }
 /* Type Selector */
 p {
@@ -27,6 +28,10 @@ div > a {
     font-weight: 200;
     font-size: 16px;
 }
+a {
+    color: white;
+    margin-left: 20%;
+}
 /* Chained Selector */
 h1,
 h2 {
@@ -34,8 +39,14 @@ h2 {
     color: white;
 }
 /* At least two classes with shared rules, grouped together */
-.container.text-center {
+/* Using mulit class selectors, have both of these in addition to their
+own style */
+.container
+.text-center {
     padding: 0;
+}
+.card-title {
+    border: 1px solid black;
 }
 /* Descendant combinator */
 ul li {
